@@ -152,28 +152,27 @@ def produce_notes(text):
     data = defaultdict(list)
 
     for s in text.split("."):
-        s = s.lower()
         mission = []
         instrument = []
         var = []
         exception = []
 
         for e in exceptions:
-            if is_ordered_subset(e, s):
+            if is_ordered_subset(e, s.lower()):
                 exception.append(e)
 
         for m in missions:
-            if is_ordered_subset(m, s):
+            if is_ordered_subset(m, s.lower()):
                 mission.append(m)
         if not mission and not exception:
             continue
         for i in instruments:
-            if is_ordered_subset(i, s):
+            if is_ordered_subset(i, s.lower()):
                 instrument.append(i)
         if not instrument and not exception:
             continue
         for v in variables:
-            if is_ordered_subset(v, s):
+            if is_ordered_subset(v, s.lower()):
                 var.append(v)
         if not var and not exception:
             continue
