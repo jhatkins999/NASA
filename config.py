@@ -6,6 +6,8 @@ params = {
     'TEXT_LOC': '/Users/jhatkins/PycharmProjects/label_PDFs/data/text/',
     'JSON_LOC': '/Users/jhatkins/PycharmProjects/label_PDFs/data/json/',
     'PREPROC_LOC' : '/Users/jhatkins/PycharmProjects/label_PDFs/data/preprocessed/',
+    'MODEL_LOC' : '/Users/jhatkins/PycharmProjects/label_PDFs/NER/project/model/model.tar.gz',
+    'JAR_LOC' : 'Users/jhatkins/PycharmProjects/label_PDFs/NER/project/model/stanford-corenlp-4.2.0-models-english.jar',
     'VARIABLES_CSV': '/Users/jhatkins/PycharmProjects/label_PDFs/data/csv/variables.csv',
     'MISSIONS_CSV' : '/Users/jhatkins/PycharmProjects/label_PDFs/data/csv/missions.csv',
     'INSTRUMENTS_CSV' : '/Users/jhatkins/PycharmProjects/label_PDFs/data/csv/instruments.csv',

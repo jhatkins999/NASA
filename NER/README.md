@@ -7,10 +7,13 @@ the ner rcc file to create the conll file and then input our new conll file into
 https://stanfordnlp.github.io/CoreNLP/ner.html That is the link to the stanford NLP ner model which
 is written in Java but has an nltk python wrapper and can be imported with 
 from nltk.tag import StanfordNERTagger
+Additional stanford models and jar files can be found at: https://stanfordnlp.github.io/CoreNLP/index.html#download
 NLTK is installed as part of the yaml file. This file takes a model and a jar file, the classes of the
 model can be changed which allows us to import our model with an extra class for datasets. It takes a
 tar gz file which can be generated with the steps outlined in the README. The model from last summer
 can be found in NER/project/model/model.tar.gz
+This blog might be helpful for training ner: https://www.sicara.ai/blog/2018-04-25-python-train-model-NTLK-stanford-ner-tagger
+
 
 # Summer README
 To run this project, you need to be running a linux based system and have anaconda downloaded
