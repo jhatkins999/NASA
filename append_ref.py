@@ -16,7 +16,7 @@ from collections import defaultdict
 from nltk.corpus import stopwords
 
 from config import params
-
+# Old don't use this was replaced by produce notes
 
 def get_variables(var_path, mission_path, instrument_path):
     variables = []
